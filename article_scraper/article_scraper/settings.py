@@ -11,6 +11,12 @@
 
 BOT_NAME = 'article_scraper'
 
+CLOSESPIDER_PAGECOUNT=10
+FEED_URI = 'articles.csv'
+FEED_FORMAT = 'csv'
+
+
+
 SPIDER_MODULES = ['article_scraper.spiders']
 NEWSPIDER_MODULE = 'article_scraper.spiders'
 
