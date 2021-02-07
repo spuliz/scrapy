@@ -11,7 +11,7 @@
 
 BOT_NAME = 'article_scraper'
 
-CLOSESPIDER_PAGECOUNT=10
+CLOSESPIDER_PAGECOUNT=100
 FEED_URI = 'articles.csv'
 FEED_FORMAT = 'csv'
 
